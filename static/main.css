@@ -2,15 +2,22 @@
   --color-primary: #130f40;
   --color-secondary: #ffd32a;
 }
+
 *,
 *::after,
 *::before {
   box-sizing: inherit;
 }
+
 body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+p {
+  margin-bottom: 0;
+}
+
 .section-header {
   text-align: center;
   color: var(--color-primary);
@@ -24,14 +31,12 @@ body {
 
 .navbar-brand {
   font-family: "The Nautigal", cursive;
-  font-size: 2.1rem;
+  font-size: 1.6rem;
   padding: 0.5rem 1.2rem;
   border-radius: 20px 5px 20px 5px;
   border: 1px solid var(--color-secondary);
 }
-.nav-link {
-  font-size: 1.1rem;
-}
+
 .nav-link,
 .navbar-brand {
   color: var(--color-secondary);
@@ -68,15 +73,13 @@ h1::after {
 
 .header {
   background-color: var(--color-primary);
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
-  color: var(--color-primary);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
   color: var(--color-secondary);
   font-family: "The Nautigal", cursive;
-  font-size: 5vw;
+  font-size: 5rem;
   font-weight: bold;
-  height: 25vh;
-  margin-top: 100px;
   min-height: 30vh;
+  margin-top: 88px;
   padding-top: 0.8rem;
   text-align: center;
 }
@@ -156,9 +159,10 @@ h1::after {
 
 .about-me p {
   font-family: "Nixie One", cursive;
-  font-size: 20px;
+  font-size: 1.1rem;
   text-align: justify;
 }
+
 /* Update section */
 .update {
   background-color: var(--color-primary);
@@ -166,34 +170,39 @@ h1::after {
   color: var(--color-secondary);
   min-height: 65vh;
 }
+
 .update h1 {
   color: var(--color-secondary);
 }
+
 .update-event {
   padding: 10px 20px 10px 20px;
   box-shadow: 15px 2px 15px rgba(0, 0, 0, 0.3);
   border-radius: 25px 5px 25px 5px;
-  border-left: 4px solid var(--color-secondary);
-  border-right: 4px solid var(--color-secondary);
+  border-left: 3px solid var(--color-secondary);
+  border-right: 3px solid var(--color-secondary);
 }
 
 .update-event i {
-  font-size: 1.6rem;
+  font-size: 1.1rem;
   color: var(--color-secondary);
 }
 
 .update-event date {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .update-event p {
-  font-size: 1.3rem;
   margin-bottom: 0;
+}
+
+ul {
+  padding-left: 0;
 }
 
 .education ul li {
   text-align: center;
-  padding: 1.5rem;
+  padding: 8px;
   list-style-type: none;
   border: 2px solid var(--color-primary);
   margin-bottom: 8px;
@@ -205,15 +214,17 @@ h1::after {
   transition: 0.5s ease-in-out;
 }
 
+/* Experience Section */
 .experience {
   background-color: var(--color-primary);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
   color: var(--color-secondary);
-  min-height: 35vh;
+  min-height: 50vh;
 }
 .experience h1 {
   color: var(--color-secondary);
 }
+
 .experience marquee {
   font-size: 1.6rem;
   color: #fff;
@@ -223,13 +234,13 @@ h1::after {
 }
 
 .subsection-header {
-  border: 4px solid var(--color-primary);
-  border-radius: 10px 25px 10px 25px;
+  border: 3px solid var(--color-primary);
+  border-radius: 8px 20px 8px 20px;
   text-align: center;
   padding: 0.8rem 1.5rem;
-  margin: 1.5rem 5px;
+  margin: 1rem 5px;
 }
-
+/* Skill Section */
 .skill-container {
   margin-bottom: 5px;
 }
@@ -248,7 +259,7 @@ h1::after {
   background-color: var(--color-primary);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
   color: var(--color-secondary);
-  min-height: 40vh;
+  min-height: 50vh;
 }
 #contact h1 {
   color: var(--color-secondary);
@@ -337,8 +348,8 @@ ul {
 }
 
 .blockquote__text--credit {
-  font-weight: bold;
-  font-style: normal;
+  font-weight: lighter;
+  font-size: 1rem;
 }
 
 .blockquote__text--credit::before {
@@ -349,7 +360,7 @@ ul {
 }
 
 .footer-section {
-  padding-top: 4rem;
+  padding-top: 2rem;
   margin-top: 4rem;
   background-color: var(--color-primary);
   color: var(--color-secondary);
@@ -379,4 +390,45 @@ ul {
 .project__title a {
   text-decoration: none;
   color: inherit;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: "Gelasio", serif;
+}
+
+#copyright-msg {
+  padding-bottom: 2rem;
+}
+
+.carousel-indicators {
+  bottom: -20px;
+}
+
+@media screen and (max-width: 820px) {
+  .header {
+    min-height: 20vh;
+  }
+  .update {
+    min-height: 40vh;
+  }
+  .experience {
+    min-height: 25vh;
+  }
+  #contact {
+    min-height: 30vh;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .header {
+    font-size: 2.2rem;
+  }
+  .update {
+    min-height: 70vh;
+  }
+  .experience {
+    min-height: 35vh;
+  }
+  #contact {
+    min-height: 50vh;
+  }
 }
