@@ -469,3 +469,7 @@ ul {
 .swiper-button-prev {
   color: var(--color-primary);
 }
+
+.swiper-pagination-bullet {
+  background-color: var(--color-primary);
+}
