@@ -1,4 +1,4 @@
-/* COLOR SWATCH */
+// Color swatches
 document.querySelector(".switcher-btn").onclick = () => {
   document.querySelector(".color-switcher").classList.toggle("active");
 };
@@ -14,7 +14,7 @@ themeButtons.forEach((color) => {
   });
 });
 
-/* NAVBAR CUSTOMIZATION */
+// Navbar - Automatically highlights the nav-items while scrolling
 let navlinkContainer = document.getElementsByClassName("navbar-nav");
 
 let links = document.getElementsByClassName("nav-link");
@@ -27,8 +27,16 @@ for (let i = 0; i < links.length; i++) {
   });
 }
 
-/* FOOTER */
+// Footer - Updates the year automatically
 const year = new Date().getFullYear();
 document.getElementById(
   "copyright-msg"
 ).innerHTML = `Copyright &copy; ${year}, Sabbir Ahmed.`;
+
+// Adds preloader and makes the navigation bar sticky after loading
+let loader = document.getElementById("preloader");
+let navbar = document.getElementById("navigation");
+window.addEventListener("load", function () {
+  loader.style.display = "none";
+  navbar.classList.add("sticky-top");
+});

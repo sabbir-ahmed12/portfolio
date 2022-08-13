@@ -19,9 +19,9 @@ p {
 }
 
 .section-header {
-  text-align: center;
   color: var(--color-primary);
   padding: 1.5rem 0 1.5rem 0;
+  text-align: center;
 }
 
 .primary-bg {
@@ -30,11 +30,11 @@ p {
 }
 
 .navbar-brand {
+  border-radius: 20px 5px 20px 5px;
+  border: 1px solid var(--color-secondary);
   font-family: "The Nautigal", cursive;
   font-size: 1.6rem;
   padding: 0.5rem 1.2rem;
-  border-radius: 20px 5px 20px 5px;
-  border: 1px solid var(--color-secondary);
 }
 
 .nav-link,
@@ -62,13 +62,13 @@ p {
 }
 
 h1::after {
-  content: "";
-  width: 100px;
-  display: block;
-  margin: 10px auto;
-  height: 5px;
   background-color: var(--color-secondary);
   border-radius: 5px;
+  content: "";
+  display: block;
+  height: 5px;
+  margin: 10px auto;
+  width: 100px;
 }
 
 .header {
@@ -79,7 +79,6 @@ h1::after {
   font-size: 5rem;
   font-weight: bold;
   min-height: 30vh;
-  margin-top: 88px;
   padding-top: 0.8rem;
   text-align: center;
 }
@@ -89,9 +88,9 @@ h1::after {
 }
 
 .about-me img {
-  width: 100%;
   border-radius: 50px 10px 50px 10px;
   box-shadow: 5px 5px 10px lightgray;
+  width: 100%;
 }
 
 /* COLOR SWATCH */
@@ -106,22 +105,22 @@ h1::after {
 }
 
 .color-switcher h6 {
+  border-bottom: 1px solid var(--color-secondary);
   color: var(--color-secondary);
   margin-bottom: 10px;
-  border-bottom: 1px solid var(--color-secondary);
-  padding-top: 7px;
   padding-bottom: 4px;
+  padding-top: 7px;
   text-align: center;
 }
 
 .switcher-btn {
-  position: absolute;
-  top: 0;
-  right: 190px;
-  padding: 10px 20px;
+  color: var(--color-secondary);
   cursor: pointer;
   font-size: 25px;
-  color: var(--color-secondary);
+  padding: 10px 20px;
+  position: absolute;
+  right: 190px;
+  top: 0;
 }
 
 .color-switcher .switcher-btn i {
@@ -141,25 +140,27 @@ h1::after {
 }
 
 .theme-btns {
+  border-radius: 50%;
+  cursor: pointer;
   display: block;
   height: 30px;
-  width: 30px;
-  border-radius: 50%;
   margin: 5px;
-  cursor: pointer;
+  width: 30px;
 }
 
 /* About section */
 .about-desc {
-  padding: 1.8rem;
-  border-radius: 10px;
   border-radius: 10px 40px 10px 40px;
+  border-radius: 10px;
   box-shadow: 5px 5px 10px lightgray;
+  padding: 1.8rem;
 }
 
 .about-me p {
-  font-family: "Nixie One", cursive;
-  font-size: 1.1rem;
+  color: #666;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
   text-align: justify;
 }
 
@@ -176,16 +177,16 @@ h1::after {
 }
 
 .update-event {
-  padding: 10px 20px 10px 20px;
-  box-shadow: 15px 2px 15px rgba(0, 0, 0, 0.3);
-  border-radius: 25px 5px 25px 5px;
   border-left: 3px solid var(--color-secondary);
+  border-radius: 25px 5px 25px 5px;
   border-right: 3px solid var(--color-secondary);
+  box-shadow: 15px 2px 15px rgba(0, 0, 0, 0.3);
+  padding: 10px 20px 10px 20px;
 }
 
 .update-event i {
-  font-size: 1.1rem;
   color: var(--color-secondary);
+  font-size: 1.1rem;
 }
 
 .update-event date {
@@ -201,12 +202,12 @@ ul {
 }
 
 .education ul li {
-  text-align: center;
-  padding: 8px;
-  list-style-type: none;
-  border: 2px solid var(--color-primary);
-  margin-bottom: 8px;
   border-radius: 5px 25px 5px 25px;
+  border: 2px solid var(--color-primary);
+  list-style-type: none;
+  margin-bottom: 8px;
+  padding: 8px;
+  text-align: center;
 }
 
 .education ul li:hover {
@@ -226,33 +227,33 @@ ul {
 }
 
 .experience marquee {
-  font-size: 1.6rem;
   color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
   margin: 0px 15vw 0 15vw;
   text-transform: uppercase;
-  font-weight: bold;
 }
 
 .subsection-header {
-  border: 3px solid var(--color-primary);
   border-radius: 8px 20px 8px 20px;
-  text-align: center;
-  padding: 0.8rem 1.5rem;
+  border: 3px solid var(--color-primary);
   margin: 1rem 5px;
+  padding: 0.8rem 1.5rem;
+  text-align: center;
 }
 /* Skill Section */
 .skill-container {
   margin-bottom: 5px;
 }
 .skill-item {
+  border-radius: 25px 5px 25px 5px;
+  box-shadow: 5px 2px 15px rgba(0, 0, 0, 0.3);
+  color: #555;
+  font-size: 1rem;
+  font-weight: bold;
   margin: 10px !important;
   padding: 0.8rem;
   text-align: center;
-  border-radius: 25px 5px 25px 5px;
-  box-shadow: 5px 2px 15px rgba(0, 0, 0, 0.3);
-  font-weight: bold;
-  font-size: 1rem;
-  color: #555;
 }
 
 #contact {
@@ -269,14 +270,14 @@ h6 {
   color: #fff;
 }
 .btn-custom {
+  border-radius: 5px;
   border: 2px solid var(--color-secondary);
   color: var(--color-secondary);
-  border-radius: 5px;
   padding: 0.8rem 1.2rem;
 }
 .btn-custom:hover {
-  color: #fff;
   border: 2px solid var(--color-secondary);
+  color: #fff;
 }
 
 .designation {
@@ -288,11 +289,11 @@ ul {
 }
 
 .list__item {
-  padding: 10px;
-  margin: 5px;
+  border-radius: 6px;
   box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  border-radius: 6px;
+  margin: 5px;
+  padding: 10px;
 }
 
 .list__item:hover {
@@ -305,27 +306,27 @@ ul {
 }
 
 .list__item p {
-  margin-bottom: 0;
   font-size: 1.2rem;
   font-weight: bold;
+  margin-bottom: 0;
   text-align: center;
 }
 
 .affiliated-items {
-  padding: 10px 20px 10px 20px;
-  box-shadow: 15px 2px 15px rgba(0, 0, 0, 0.3);
-  border-radius: 25px 5px 25px 5px;
   border-left: 4px solid var(--color-primary);
+  border-radius: 25px 5px 25px 5px;
   border-right: 4px solid var(--color-primary);
+  box-shadow: 15px 2px 15px rgba(0, 0, 0, 0.3);
+  padding: 10px 20px 10px 20px;
 }
 
 .blockquote {
-  max-width: 80%;
-  margin: 0 auto;
   background-color: var(--color-primary);
   clip-path: polygon(2% 0, 100% 0, 98% 100%, 0 100%);
-  min-height: 150px;
   color: var(--color-secondary);
+  margin: 0 auto;
+  max-width: 80%;
+  min-height: 150px;
 }
 
 .blockquote__text {
@@ -337,19 +338,19 @@ ul {
 }
 
 .blockquote__text::before {
+  color: var(--color-secondary);
   content: "\201c\0020";
   font-size: 1.5rem;
-  color: var(--color-secondary);
 }
 .blockquote__text::after {
+  color: var(--color-secondary);
   content: "\201d\0020";
   font-size: 1.5rem;
-  color: var(--color-secondary);
 }
 
 .blockquote__text--credit {
-  font-weight: lighter;
   font-size: 1rem;
+  font-weight: lighter;
 }
 
 .blockquote__text--credit::before {
@@ -360,15 +361,15 @@ ul {
 }
 
 .footer-section {
-  padding-top: 2rem;
-  margin-top: 4rem;
   background-color: var(--color-primary);
   color: var(--color-secondary);
+  margin-top: 4rem;
   min-height: 15vh;
+  padding-top: 2rem;
 }
 .contactIcon a {
-  font-size: 1.6rem;
   color: var(--secondary-color);
+  font-size: 1.6rem;
   margin-left: 5px;
 }
 .footer-section p {
@@ -376,23 +377,23 @@ ul {
 }
 .footer-section hr {
   background-color: var(--color-secondary);
-  height: 4px;
   border-radius: 50%;
+  height: 4px;
 }
 
 .icon {
-  font-size: 1.1rem;
   color: var(--color-secondary);
-  margin-right: 5px;
+  font-size: 1.1rem;
   margin-left: 5px;
+  margin-right: 5px;
 }
 
 .project__title a {
-  text-decoration: none;
   color: inherit;
+  font-family: "Gelasio", serif;
   font-size: 1rem;
   font-weight: normal;
-  font-family: "Gelasio", serif;
+  text-decoration: none;
 }
 
 #copyright-msg {
@@ -431,4 +432,13 @@ ul {
   #contact {
     min-height: 50vh;
   }
+}
+
+/* Preloader */
+#preloader {
+  background: white url(../images/loaders/loader.gif) no-repeat center center;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }

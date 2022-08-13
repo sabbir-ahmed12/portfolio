@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,700;1,400;1,700&family=Nixie+One&family=Roboto:wght@400;500;700;900&family=The+Nautigal:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,700;1,400;1,700&family=Poppins&family=Roboto:wght@400;500;700;900&family=The+Nautigal:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -29,8 +29,11 @@
     <link rel="stylesheet" href="static/main.css" />
   </head>
   <body data-bs-spy="scroll" data-bs-target="navbar">
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg primary-bg py-3 fixed-top">
+    <nav id="navigation" class="navbar navbar-expand-lg primary-bg py-3">
       <div class="container-md">
         <a class="navbar-brand" href="#about">Sabbir Ahmed</a>
         <button
@@ -56,7 +59,6 @@
             <a class="nav-link" href="#projects">Projects</a>
             <a class="nav-link" href="#publications">Publications</a>
             <a class="nav-link" href="#misc">Misc.</a>
-            <!--Conference, Journal, Article/Blog-->
           </div>
           <div>
             <a class="nav-link" href="#">Sign In</a>
@@ -65,6 +67,7 @@
       </div>
     </nav>
 
+    <!-- Header -->
     <div class="container-fluid header">
       <div class="row">
         <div class="col-md-12">
@@ -108,6 +111,7 @@
       </div>
     </div>
 
+    <!-- About Section -->
     <section id="about" class="container">
       <div class="row about-me mt-5">
         <h1 class="section-header">About Me</h1>
@@ -120,10 +124,10 @@
             <h2>Hi,</h2>
             <hr />
             <p>
-              I am Sabbir Ahmed, a senior year undergraduate student pursuing a
-              Bachelor of Science in Electronics and Telecommunication
-              Engineering at Chittagong University of Engineering and Technology
-              (CUET).<br /><br />
+              I am Sabbir Ahmed. I have recently graduated from the Chittagong
+              University of Engineering and Technology (CUET) with a bachelor's
+              degree in Electronics and Telecommunication Engineering.
+              <br /><br />
               I like to explore new technologies, love to learn new things and
               always feel curious about knowing every details what interests me.
               My areas of interest include machine learning, signal processing,
@@ -132,7 +136,9 @@
               about multilingual and multimodal speech research. I feel excited
               about working on problems that would provide seamless interaction
               between intelligent machines and humans by combining features from
-              different modalities.<br /><br />
+              different modalities. I'm now seeking an opportunity to work in a
+              team-based environment where I can make a direct impact in the
+              field of signal processing and NLP.<br /><br />
               Apart from educational activities, I read blogs on programming,
               watch tutorials and documentaries, work on hobby project. I also
               love travelling and exploring new places and have fascination to
@@ -143,7 +149,7 @@
       </div>
     </section>
 
-    <!-- Updates -->
+    <!-- Updates Section -->
     <section class="container-fluid update">
       <div class="row mt-5 d-flex justify-content-center">
         <h1 class="section-header">Updates</h1>
@@ -165,7 +171,7 @@
       </div>
     </section>
 
-    <!-- Education -->
+    <!-- Education Section -->
     <section id="education" class="container-md education">
       <div class="row mt-5 d-flex justify-content-center">
         <h1 class="section-header">Academic Education</h1>
@@ -191,6 +197,7 @@
       </div>
     </section>
 
+    <!-- Experience Section -->
     <section class="container-fluid experience">
       <div class="row mt-5 d-flex justify-content-center">
         <h1 class="section-header">Professional Experience</h1>
@@ -202,6 +209,7 @@
       </div>
     </section>
 
+    <!-- Skills Section -->
     <section id="skills" class="container-md" id="skills">
       <div class="row mt-5 d-flex justify-content-center">
         <h1 class="section-header">Technical Skills</h1>
@@ -266,6 +274,7 @@
       </div>
     </section>
 
+    <!-- Contact Section -->
     <section class="container-fluid" id="contact">
       <div class="row mt-5 d-flex justify-content-center">
         <h1 class="section-header">Contact</h1>
@@ -280,6 +289,7 @@
       </div>
     </section>
 
+    <!-- Certification Section -->
     <section class="container-md" id="certificates">
       <div class="row">
         <h1 class="section-header">MOOC Certifications</h1>
@@ -371,6 +381,7 @@
       </div>
     </section>
 
+    <!-- Projects Section -->
     <section class="container-md" id="projects">
       <div class="row mt-5 d-flex justify-content-center">
         <h1 class="section-header">Projects</h1>
@@ -529,6 +540,7 @@
       </ul>
     </section>
 
+    <!-- Miscellaneous Section -->
     <section class="container-md" id="misc">
       <div class="row mt-5 d-flex justify-content-center">
         <h1 class="section-header">Miscellaneous</h1>
@@ -696,6 +708,7 @@
       </div>
     </section>
 
+    <!-- Footer Section -->
     <footer class="container-fluid footer-section">
       <div class="row">
         <div class="col-md-12 text-center">
