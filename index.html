@@ -22,10 +22,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
     />
-    <script
-      src="https://kit.fontawesome.com/57139b174d.js"
-      crossorigin="anonymous"
-    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="static/main.css" />
   </head>
   <body data-bs-spy="scroll" data-bs-target="navbar">
@@ -293,91 +294,43 @@
     <section class="container-md" id="certificates">
       <div class="row">
         <h1 class="section-header">MOOC Certifications</h1>
-        <div
-          id="carouselExampleIndicators"
-          class="carousel carousel-dark slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/mooc_certificates/coursera_ml.jpg" alt="" />
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row d-flex align-items-center justify-content-center">
-                <div class="col-md-7">
-                  <img
-                    src="images/certificates/jarvis.jpg"
-                    class="d-block w-100"
-                    alt=""
-                  />
-                </div>
-                <!-- <div class="col-md-3">
-                  <h4>Macbook Pro</h4>
-                  <p class="text-muted">
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature.
-                  </p>
-                </div> -->
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row d-flex align-items-center justify-content-center">
-                <div class="col-md-7">
-                  <img
-                    src="images/certificates/tensorflow.jpg"
-                    class="d-block w-100"
-                    alt=""
-                  />
-                </div>
-                <!-- <div class="col-md-3">
-                  <h4>Voice Assistant</h4>
-                  <p class="text-muted">
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature.
-                  </p>
-                </div> -->
-              </div>
-            </div>
-
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          <div class="swiper-slide">
+            <img src="images/mooc_certificates/coursera_dl.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/mooc_certificates/aws_ml.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/mooc_certificates/coursera_git.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="images/mooc_certificates/coursera_signal_processing.jpg"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/mooc_certificates/cuet_nlp.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/mooc_certificates/ssbd_research.JPG" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/mooc_certificates/cuet_forensics.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/mooc_certificates/pantech_matlab.jpg" alt="" />
           </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
 
@@ -392,33 +345,41 @@
           <ul class="list">
             <li class="list__item list__item--left-bordered">
               <p class="project__title">
-                <a href="#">
-                  Cochleagram Based Speaker Identification Using Noise Adapted
-                  CNN
+                <a
+                  href="https://github.com/sabbir-ahmed12/ML-malaria-detection"
+                  target="_blank"
+                >
+                  ML - Malaria Detection Using Convolutional Neural Network.
                 </a>
               </p>
             </li>
             <li class="list__item list__item--left-bordered">
               <p class="project__title">
-                <a href="#">
-                  Cochleagram Based Speaker Identification Using Noise Adapted
-                  CNN
+                <a
+                  href="https://github.com/sabbir-ahmed12/ML-bangla-digit-classification"
+                  target="_blank"
+                >
+                  ML - Bengali Digit Classification Using Machine Learning.
                 </a>
               </p>
             </li>
             <li class="list__item list__item--left-bordered">
               <p class="project__title">
-                <a href="#">
-                  Cochleagram Based Speaker Identification Using Noise Adapted
-                  CNN
+                <a
+                  href="https://github.com/sabbir-ahmed12/ML-capuchinbird-calls-prediction"
+                  target="_blank"
+                >
+                  ML - Capucchin Bird Calls Prediction Using Machine Learning.
                 </a>
               </p>
             </li>
             <li class="list__item list__item--left-bordered">
               <p class="project__title">
-                <a href="#">
-                  Cochleagram Based Speaker Identification Using Noise Adapted
-                  CNN
+                <a
+                  href="https://github.com/sabbir-ahmed12/real-time-chat-app"
+                  target="_blank"
+                >
+                  Socket - Real-time Chat Application Using Python.
                 </a>
               </p>
             </li>
@@ -428,33 +389,41 @@
           <ul class="list">
             <li class="list__item list__item--left-bordered">
               <p class="project__title">
-                <a href="#">
-                  Cochleagram Based Speaker Identification Using Noise Adapted
-                  CNN
+                <a
+                  href="https://github.com/sabbir-ahmed12/EDA-Ford-used-car-analysis"
+                  target="_blank"
+                >
+                  EDA - Ford Used Card Analysis.
                 </a>
               </p>
             </li>
             <li class="list__item list__item--left-bordered">
               <p class="project__title">
-                <a href="#">
-                  Cochleagram Based Speaker Identification Using Noise Adapted
-                  CNN
+                <a
+                  href="https://github.com/sabbir-ahmed12/EDA-ODI-cricket-bowling-analysis"
+                  target="_blank"
+                >
+                  EDA - ODI Cricket Bowling Analysis.
                 </a>
               </p>
             </li>
             <li class="list__item list__item--left-bordered">
               <p class="project__title">
-                <a href="#">
-                  Cochleagram Based Speaker Identification Using Noise Adapted
-                  CNN
+                <a
+                  href="https://github.com/sabbir-ahmed12/feedback226-app"
+                  target="_blank"
+                >
+                  Web - Feedback App Using Flask.
                 </a>
               </p>
             </li>
             <li class="list__item list__item--left-bordered">
               <p class="project__title">
-                <a href="#">
-                  Cochleagram Based Speaker Identification Using Noise Adapted
-                  CNN
+                <a
+                  href="https://github.com/sabbir-ahmed12/flaskapp-blog226"
+                  target="_blank"
+                >
+                  Web - Blog App Using Flask.
                 </a>
               </p>
             </li>
@@ -549,84 +518,21 @@
       <div class="col-md-12 d-flex justify-content-center">
         <h3 class="subsection-header mb-4">Awards & Achievements</h3>
       </div>
-      <div
-        id="award-carousel"
-        class="carousel carousel-dark slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators mb-20">
-          <button
-            type="button"
-            data-bs-target="#award-carousel"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#award-carousel"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row d-flex align-items-center justify-content-center">
-              <!-- <div class="col-md-3">
-                <h4>Macbook Pro</h4>
-                <p class="text-muted">
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature.
-                </p>
-              </div> -->
-              <div class="col-md-7">
-                <img
-                  src="images/certificates/jarvis.jpg"
-                  class="d-block w-100"
-                  alt=""
-                />
-              </div>
-            </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/achievements/honda_yes.jpg" alt="" />
           </div>
-          <div class="carousel-item">
-            <div class="row d-flex align-items-center justify-content-center">
-              <!-- <div class="col-md-3">
-                <h4>Voice Assistant</h4>
-                <p class="text-muted">
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature.
-                </p>
-              </div> -->
-              <div class="col-md-7">
-                <img
-                  src="images/certificates/tensorflow.jpg"
-                  class="d-block w-100"
-                  alt=""
-                />
-              </div>
-            </div>
+          <div class="swiper-slide">
+            <img src="images/achievements/conference_mist.jpg" alt="" />
           </div>
-
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#award-carousel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#award-carousel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="swiper-slide">
+            <img src="images/achievements/duke_bronze.jpg" alt="" />
+          </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
       </div>
 
       <!--Affiliations-->
@@ -743,6 +649,30 @@
       integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/57139b174d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
     <script src="js/main.js"></script>
   </body>
 </html>
