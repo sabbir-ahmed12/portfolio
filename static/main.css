@@ -151,7 +151,6 @@ h1::after {
 /* About section */
 .about-desc {
   border-radius: 10px 40px 10px 40px;
-  border-radius: 10px;
   box-shadow: 5px 5px 10px lightgray;
   padding: 1.8rem;
 }
