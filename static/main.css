@@ -170,7 +170,7 @@ h1::after {
 /* Update section */
 .update {
   background-color: var(--color-primary);
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
   color: var(--color-secondary);
   min-height: 65vh;
 }
@@ -221,7 +221,7 @@ ul {
 /* Experience Section */
 .experience {
   background-color: var(--color-primary);
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
   color: var(--color-secondary);
   min-height: 50vh;
 }
@@ -261,7 +261,7 @@ ul {
 
 #contact {
   background-color: var(--color-primary);
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
   color: var(--color-secondary);
   min-height: 50vh;
 }
