@@ -174,7 +174,7 @@ h1::after {
   background-color: var(--color-primary);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 89%);
   color: var(--color-secondary);
-  min-height: 65vh;
+  min-height: 80vh;
 }
 
 .update h1 {
