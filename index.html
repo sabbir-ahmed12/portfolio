@@ -28,7 +28,6 @@
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="static/main.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body data-bs-spy="scroll" data-bs-target="navbar">
     <!-- Preloader -->
@@ -72,7 +71,7 @@
     <!-- Header -->
     <div class="container-fluid header">
       <div class="row">
-        <div class="col-md-12" data-aos="fade-up">
+        <div class="col-md-12">
           <p class="my-20">Hey! Welcome to My Portfolio</p>
         </div>
       </div>
@@ -114,7 +113,7 @@
     </div>
 
     <!-- About Section -->
-    <section id="about" class="container" data-aos="fade-up">
+    <section id="about" class="container">
       <div class="row about-me mt-5">
         <h1 class="section-header">About Me</h1>
         <div class="col-md-4 d-flex align-items-center">
@@ -152,7 +151,7 @@
     </section>
 
     <!-- Updates Section -->
-    <section class="container-fluid update" data-aos="zoom-in">
+    <section class="container-fluid update">
       <div class="row mt-5 d-flex justify-content-center">
         <h1 class="section-header">Updates</h1>
         <div class="col-md-7 update-event mb-2">
@@ -174,7 +173,7 @@
     </section>
 
     <!-- Education Section -->
-    <section id="education" class="container-md education" data-aos="fade-up">
+    <section id="education" class="container-md education">
       <div class="row mt-5 d-flex justify-content-center">
         <h1 class="section-header">Academic Education</h1>
         <div class="col-md-8">
@@ -456,16 +455,13 @@
     <!-- Skills Section -->
     <section id="skills" class="container-md" id="skills">
       <div class="row mt-5 d-flex justify-content-center">
-        <h1 class="section-header" data-aos="zoom-in">Technical Skills</h1>
+        <h1 class="section-header">Technical Skills</h1>
       </div>
       <div class="col-md-12 d-flex justify-content-center">
         <h3 class="subsection-header mb-4">Programming Language</h3>
       </div>
       <div class="container-md skill-container">
-        <div
-          class="row d-flex justify-content-center align-items-center"
-          data-aos="zoom-in"
-        >
+        <div class="row d-flex justify-content-center align-items-center">
           <div class="col skill-item">Python</div>
           <div class="col skill-item">C</div>
           <div class="col skill-item">C++</div>
@@ -481,7 +477,6 @@
       <div class="container-md skill-container">
         <div
           class="row d-flex flex-wrap justify-content-center align-items-center"
-          data-aos="zoom-in"
         >
           <div class="col skill-item">Numpy</div>
           <div class="col skill-item">Pandas</div>
@@ -497,10 +492,7 @@
         <h3 class="subsection-header mb-4">Misc.</h3>
       </div>
       <div class="container-md skill-container">
-        <div
-          class="row d-flex justify-content-center align-items-center"
-          data-aos="zoom-in"
-        >
+        <div class="row d-flex justify-content-center align-items-center">
           <div class="col skill-item">HTML</div>
           <div class="col skill-item">CSS</div>
           <div class="col skill-item">LaTeX</div>
@@ -512,10 +504,7 @@
         <h3 class="subsection-header mb-4">Softwares & Tools</h3>
       </div>
       <div class="container-md skill-container">
-        <div
-          class="row d-flex justify-content-center align-items-center"
-          data-aos="zoom-in"
-        >
+        <div class="row d-flex justify-content-center align-items-center">
           <div class="col skill-item">MS Powerpoint</div>
           <div class="col skill-item">MS Excel</div>
           <div class="col skill-item">PreZi</div>
@@ -529,7 +518,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="container-fluid" id="contact" data-aos="flip-right">
+    <section class="container-fluid" id="contact">
       <div class="row mt-5 d-flex justify-content-center">
         <h1 class="section-header">Contact</h1>
         <div class="col-md-12 text-center">
@@ -590,12 +579,12 @@
     <!-- Projects Section -->
     <section class="container-md" id="projects">
       <div class="row mt-5 d-flex justify-content-center">
-        <h1 class="section-header" data-aos="zoom-in">Projects</h1>
+        <h1 class="section-header">Projects</h1>
       </div>
 
       <div class="row">
         <div class="col-md-6">
-          <ul class="list" data-aos="fade-up">
+          <ul class="list">
             <li class="list__item list__item--left-bordered">
               <p class="list__item__title">
                 <a
@@ -639,7 +628,7 @@
           </ul>
         </div>
         <div class="col-md-6">
-          <ul class="list" data-aos="fade-up">
+          <ul class="list">
             <li class="list__item list__item--left-bordered">
               <p class="list__item__title">
                 <a
@@ -686,7 +675,7 @@
     </section>
 
     <!-- Publication Section -->
-    <section class="container-md" id="publications" data-aos="zoom-in">
+    <section class="container-md" id="publications">
       <div class="row mt-5 d-flex justify-content-center">
         <h1 class="section-header">Publications</h1>
       </div>
@@ -708,8 +697,8 @@
         <!-- Modal -->
         <div
           class="modal fade"
-          id="exampleModal"
           tabindex="-1"
+          id="exampleModal"
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
         >
@@ -767,7 +756,7 @@
     </section>
 
     <!-- Miscellaneous Section -->
-    <section class="container-md" id="misc" data-aos="fade-up">
+    <section class="container-md" id="misc">
       <div class="row mt-5 d-flex justify-content-center">
         <h1 class="section-header">Miscellaneous</h1>
       </div>
@@ -927,9 +916,5 @@
       });
     </script>
     <script src="js/main.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>
