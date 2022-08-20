@@ -64,6 +64,7 @@ p {
 
 .navbar-toggler {
   border-color: var(--color-secondary);
+  color: transparent;
 }
 
 h1::after {
