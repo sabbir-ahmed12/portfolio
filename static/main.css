@@ -174,7 +174,7 @@ h1::after {
   background-color: var(--color-primary);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 89%);
   color: var(--color-secondary);
-  min-height: 80vh;
+  height: 70vh;
 }
 
 .update h1 {
@@ -422,24 +422,25 @@ ul {
 @media screen and (max-width: 820px) {
   .header {
     min-height: 20vh;
+    font-size: 3rem;
   }
   .update {
-    min-height: 40vh;
+    height: 70vh;
   }
   .experience {
-    min-height: 25vh;
+    min-height: 35vh;
   }
   #contact {
-    min-height: 30vh;
+    min-height: 45vh;
   }
 }
 
 @media screen and (max-width: 414px) {
   .header {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
   }
   .update {
-    min-height: 70vh;
+    height: 68vh;
   }
   .experience {
     min-height: 35vh;
