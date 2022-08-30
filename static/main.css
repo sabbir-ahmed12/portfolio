@@ -67,7 +67,7 @@ p {
   color: transparent;
 }
 
-h1::after {
+.section-header::after {
   background-color: var(--color-secondary);
   border-radius: 5px;
   content: "";
@@ -87,6 +87,20 @@ h1::after {
   min-height: 30vh;
   padding-top: 0.8rem;
   text-align: center;
+}
+#name {
+  color: var(--color-primary);
+  font-weight: 700;
+  margin-top: 6rem;
+}
+#short_intro {
+  color: #666;
+}
+#about hr {
+  background-color: var(--color-primary);
+  border-radius: 2px;
+  height: 12px;
+  opacity: 1;
 }
 
 .about-me {
