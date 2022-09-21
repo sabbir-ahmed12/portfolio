@@ -13,8 +13,8 @@ body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   /* overflow-x: hidden; */
-  background-image: url(../images/backgrounds/bg-1.jpg);
-  background-repeat: no-repeat;
+/*   background-image: url(../images/backgrounds/bg-1.jpg); */
+/*   background-repeat: no-repeat; */
 }
 
 p {
